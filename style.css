@@ -56,3 +56,12 @@ a.instagram-link:hover {
 img {
     border: 10px solid hsl(0, 100%, 33%);
 }
+#nose-reveal {
+    display: none;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 6px solid hsl(0, 100%, 33%);
+    border-radius: 24px;
+    position: relative;
+}

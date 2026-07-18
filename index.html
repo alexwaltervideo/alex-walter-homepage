@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>alex walter page</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <h1>My name is Alex Walter.</h1>
@@ -16,9 +17,12 @@
     I also love all things <i>LEGO</i>, and I've designed a ton of my own custom sets that I've posted to the LEGO Ideas platform in the hopes that one day, I'll have a set that I designed on store shelves. How cool would that be? Other than all that, I love to draw, 3D model stuff, and just make art in general.
   </p>
   </div>
-   <h2><mark>This is my face.</mark></h2>
-  <img src="images/imgalex2.png" alt="A portrait picture of Alex Walter in a striped sweater looking surprised">
-  <!-- img src elements display pictures based on the file path or link you provide. If the image is missing for whatever reason, the alt text will be displayed instead!-->
+   <h2><mark>This is my face! <br> Do <span style="color: hsl(0, 100%, 33%);">NOT</span> touch my nose.</mark></h2>
+  <img src="images/imgalex2.png" usemap="#image-map">
+  <map name="image-map">
+    <area id="nose-button" target="_self" alt="nose_button" title="nose_button" href="#" coords="134,120,99,86" shape="rect">
+  </map>
+  <div id="nose-reveal" class="nose-reveal"></div>
   
   <h2>The Stuff I Do</h2>
   <div class="stuff-i-do">
